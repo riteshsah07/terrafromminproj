@@ -1,0 +1,5 @@
+## Terraform AWS Infrastructure Mini Project
+This project demonstrates how to use Terraform Infrastructure as Code (IaC) to provision and manage AWS resources in a simple, reproducible way. The goal of this mini project is to automate the deployment of a basic cloud environment while following best practices for cloud infrastructure management.
+Using Terraform, the configuration creates an AWS EC2 instance along with a custom security group inside the default VPC. The security group is configured to allow secure HTTPS (port 443) inbound traffic from both IPv4 and IPv6 networks while allowing all outbound traffic. This setup simulates a secure environment for hosting applications that require encrypted communication.
+Through this project, I explored core Terraform concepts such as providers, resources, data sources, state management, and modular infrastructure design. It highlights how infrastructure can be version-controlled, easily replicated, and deployed consistently across environments.
+This project reflects my growing interest in Cloud Engineering, DevOps, and Infrastructure Automation using AWS and Terraform.
